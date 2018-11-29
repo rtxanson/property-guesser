@@ -1,0 +1,9 @@
+module Tokens exposing (mapboxToken, styleId)
+
+
+mapboxToken =
+    "TODO: supply a valid token"
+
+
+styleId =
+    "TODO: supply a valid style"

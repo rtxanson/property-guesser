@@ -1,0 +1,21 @@
+{
+  "name": "propertyguesser",
+  "version": "1.0.0",
+  "description": "This project is bootstrapped with [Create Elm App](https://github.com/halfzebra/create-elm-app).",
+  "main": "elm.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "concurrently -c \"bgBlue.bold,bgMagenta.bold,bgRed.bold\" -p name --names \"ELM-APP,FLASK\" --kill-others \"elm-app start\" \". env/bin/activate && python server/app.py\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^3.5.1",
+    "elm-github-install": "^1.6.1",
+    "uglify": "^0.1.5",
+    "uglifyjs": "^2.4.11"
+  }
+}
